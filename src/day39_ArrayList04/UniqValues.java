@@ -44,9 +44,16 @@ public static void main(String[] args) {
 	System.out.println(nums);
 	//System.out.println(uniq2);
 	
+}
+	public static void removeALL(ArrayList <String> wordList , String targetWord){
+		  ArrayList <String> targetArray = new ArrayList <>();
+		  targetArray.add(targetWord);
+		   wordList.removeAll(targetArray);
+		   
+			
+		}
 	
 	
-	}
 	
 	}
 

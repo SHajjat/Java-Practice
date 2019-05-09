@@ -17,6 +17,8 @@ public class ArraysAsList {
 		
 		List <Double> prices = Arrays.asList(10.1 ,2.3 , 4.5 , 5.6 , 7.5 , 100.2 , 30203.0);
 		System.out.println(prices);
+		//prices.remove(10.1);
+		System.out.println(prices);
 		
 		
 		double sum = 0 ;
