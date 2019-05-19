@@ -12,7 +12,7 @@ public class ArraysAsList {
 		List<Integer> numbers = Arrays.asList(1,2,3,4,5);
 		
 		//create ArrayList called prices 
-		//assign values using Arrays.aslist method
+		//assign values using Arrays1.aslist method
 		
 		
 		List <Double> prices = Arrays.asList(10.1 ,2.3 , 4.5 , 5.6 , 7.5 , 100.2 , 30203.0);

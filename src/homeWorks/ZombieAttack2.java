@@ -8,12 +8,12 @@ public class ZombieAttack2 {
 //		int inhabitants[] = { 3, 6, 0, 4, 3, 2, 7, 0 };
 //		// inhabitantsTemp[]={ 0,10, 0, 20, 4, 0, 1, 6, 0
 //		int inhabitantsTemp[] = new int[inhabitants.length + 2];
-//		Arrays.fill(inhabitantsTemp, 1);
-//		// System.out.println(Arrays.toString(inhabitantsTemp));
+//		Arrays1.fill(inhabitantsTemp, 1);
+//		// System.out.println(Arrays1.toString(inhabitantsTemp));
 //		int i = 0, sum;
 //		do {
-//			Arrays.fill(inhabitantsTemp, 1);
-//			System.out.println("Day " + i++ + " " + Arrays.toString(inhabitants));
+//			Arrays1.fill(inhabitantsTemp, 1);
+//			System.out.println("Day " + i++ + " " + Arrays1.toString(inhabitants));
 //			sum = 0;
 //			for (int k = 0; k < inhabitants.length; k++) {
 //				switch (inhabitants[k]) {
@@ -30,7 +30,7 @@ public class ZombieAttack2 {
 //			}
 //			
 //		} while (sum > 0);
-//		System.out.println("Day " + i + " " + Arrays.toString(inhabitants));
+//		System.out.println("Day " + i + " " + Arrays1.toString(inhabitants));
 //
 //		System.out.println("---- EXTINCT ----");
 		

@@ -46,7 +46,7 @@ public class CellPhone {
 		}
 	  public static void main(java.lang.String...args) {
 		  List <String> wordList = new ArrayList<String>(Arrays.asList("hi","hey","hi","yo"));
-		 List <String> str1 = new  <String>(Arrays,asList("hi","hey","hi","yo")) ;
+		 //List <String> str1 = new  <String>(Arrays1.asList("hi","hey","hi","yo")) ;
 //		 removeALL(wordList,"hi");
 //		 System.out.println(wordList);
 //		 byte x = 5;

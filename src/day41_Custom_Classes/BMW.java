@@ -1,5 +1,5 @@
 package day41_Custom_Classes;
-
+import java.util.*;
 public class BMW {
 	 final String make = "BMW";
 	String model;
@@ -32,5 +32,14 @@ public class BMW {
 		
 
 	}
+	public static ArrayList <Integer> appendPosSum (ArrayList <Integer> myArr){
+		  ArrayList <Integer> newArr = new ArrayList<>();
+		  for (int i=0 ; i<myArr.size() ; i++){
+		    if (myArr.get(i)>0){
+		      newArr.add(myArr.get(i));
+		    }
+		  }
+		  return newArr;
+		}
 
 }

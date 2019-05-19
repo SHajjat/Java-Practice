@@ -3,7 +3,7 @@ import java.util.*;
 public class WarmUpOrAnd {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//DO NOT CHANGE
 	    Scanner scan = new Scanner(System.in);
 	    //WRITE YOUR CODE HERE 

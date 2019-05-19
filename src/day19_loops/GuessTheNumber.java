@@ -22,7 +22,7 @@ public class GuessTheNumber {
 			
 		}while (number!=guessednumber);
   		
-  		[]a = new Array [4];
+  		//int []a = new Array [4];
 		
 
 	}

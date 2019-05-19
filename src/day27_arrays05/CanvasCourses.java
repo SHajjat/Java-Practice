@@ -31,7 +31,7 @@ public class CanvasCourses {
 				
 			}
 		}
-		//System.out.println(Arrays.asList(ending).indexOf(204));
+		//System.out.println(Arrays1.asList(ending).indexOf(204));
 		
 		
 	}

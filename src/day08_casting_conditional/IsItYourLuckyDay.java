@@ -5,7 +5,7 @@ public class IsItYourLuckyDay {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the first letter of your name :");
-		char firstLetter = input.nextChar();
+		String firstLetter = input.next();
 		System.out.println("Enter your Birthday in the format MM/DD/YYYY :" + firstLetter);
 		
 	

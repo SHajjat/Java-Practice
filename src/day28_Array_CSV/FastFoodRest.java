@@ -43,7 +43,7 @@ public class FastFoodRest {
 //		String [][] dataSeparated = new String [data.length][data[1].length()];
 //		for (String [] Temp ) {
 //			dataSeparated[i][]= data[i].split(",");
-//			System.out.println(Arrays.toString(dataSeparated[i]));
+//			System.out.println(Arrays1.toString(dataSeparated[i]));
 //			
 //		}
 //		System.out.println(dataSeparated[1][0]);

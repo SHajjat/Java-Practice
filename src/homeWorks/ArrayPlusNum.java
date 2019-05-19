@@ -1,4 +1,6 @@
 package homeWorks;
+import homeWorksSquare.newHomeWork.*;
+import java.util.*;
 
 public class ArrayPlusNum {
 	public static void add_to_r(int[] r,int n) 
@@ -28,4 +30,5 @@ public class ArrayPlusNum {
     
  
 
+}
 }

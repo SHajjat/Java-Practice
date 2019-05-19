@@ -19,5 +19,8 @@ public class IncrementTest {
 	public void printCounters() {
 		System.out.println("i = " + i + " j = " + j);
 	}
+	public static void main(String[] args) {
+		
+	}
 
 }

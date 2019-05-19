@@ -23,7 +23,7 @@ public class ArraysOfChars {
 		
 		for (int i=chars.length-1; i>0;i--) {
 			if (chars[i]==' ') {
-				for (int j = i; j<)
+			//	for (int j = i; j<)
 			}
 		}
 	}

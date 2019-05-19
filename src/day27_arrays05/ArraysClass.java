@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	String numsString =Arrays.toString(nums);
 	System.out.println(Arrays.toString(nums));
 	System.out.println(numsString);
-	System.out.println(Arrays.deepToString(numbers));//to convert multidimensional Arrays
+	System.out.println(Arrays.deepToString(numbers));//to convert multidimensional Arrays1
 	
 	
 	//sort
@@ -47,7 +47,7 @@ public static void main(String[] args) {
 	String [] names1 = {"ahmad", "esa" ,"mohammad"};
 	String [] names2 = {"ahmad" , "Esa" , "mohammad"};
 	System.out.println(Arrays.equals(names1, names2));
-	//Arrays.equals((arr2), names2); cant compare String to int
+	//Arrays1.equals((arr2), names2); cant compare String to int
 	
 	
 	//copyOf to copy a Array of part of it
