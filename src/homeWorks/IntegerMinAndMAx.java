@@ -14,7 +14,7 @@ public class IntegerMinAndMAx {
 		    
 		    
 		    
-		    //TODO write your code below
+		   
 		    
 		    int max = Integer.MIN_VALUE;
 		    for (int i = 0 ; i<rows; i++){

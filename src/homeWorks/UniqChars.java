@@ -8,7 +8,7 @@ public class UniqChars {
 		  
 		  
 		  public static String uniqueChars(String str) {
-		    //TODO: write your below
+		  
 		    String Uniqe ="";
 		    for (int i = 1 ; i<str.length () ; i++){
 		      if ((str.length()-1) == (str.replace((""+str.charAt(i)) , "").length())) {

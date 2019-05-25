@@ -20,7 +20,7 @@ public class OnlineStore {
 		 * @return price for that item
 		 */
 		public static double findItemPrice(String item){
-			//TODO
+			
 			int index = 0;
 			
 			for (int i = 0 ; i<ITEMS.length;i++) {
@@ -48,7 +48,7 @@ public class OnlineStore {
 		 */
 		public int discountByItemCount(String[] order, boolean isMember) {
 			
-			//TODO
+			
 			int discount = 0;
 			if (order.length >=10) {
 				discount = isMember ? 10 :5;
@@ -70,7 +70,7 @@ public class OnlineStore {
 	 * @return  number of occurrences of a certain item in the order
 	 */
 		public int getNumberOfItemOccurrences(String[] order, String itemName){
-			//TODO
+			
 			int count = 0;
 			for (String a : order) {
 				if (a.equals(itemName)) {
@@ -96,7 +96,7 @@ public class OnlineStore {
 		 */
 		 
 		public int getNumberOfDuplicateItems(String[] order) {
-			//TODO
+	
 			int count = 0;
 			String strOrder = "";
 			for (int i = 0 ; i<order.length;i++) {
@@ -130,7 +130,7 @@ public class OnlineStore {
 		 * @return new array that will have original items in the order and free items added at the end of the order
 		 */
 			public String[] buyThreeDiscount(String[] order, boolean isMember) {
-				//TODO
+				
 				String added="";
 					for (String special : SPECIAL_ITEMS) {
 						if (getNumberOfItemOccurrences(order, special )>=3) {
@@ -158,7 +158,7 @@ public class OnlineStore {
 		 * @return order total
 		 */
 		public double getOrderTotalWithoutDiscount(String[] order) {
-			//TODO
+			
 			double sum = 0.0;
 			for (String item : ITEMS) {
 				sum+=findItemPrice(item);
@@ -179,7 +179,7 @@ public class OnlineStore {
 		 * @return discount percent based on the individual item price
 		 */
 		public static int discountByItemPrice(String[] order, boolean isMember) {
-			//TODO
+			
 			boolean overThrush = false;byte count = 0;
 			int thrush = isMember? 50:75 , discount=0;
 			for (String item : order) {

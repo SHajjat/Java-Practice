@@ -26,7 +26,7 @@ public class FindHowManyUsesReplace {
 	}
 
 	private static String substring(int i) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 

@@ -6,7 +6,7 @@ public class FindOdd {
 		  Scanner input = new Scanner(System.in);
 		    int[] nums = {input.nextInt(), input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt()};
 		    int sum=0;
-		    //TODO: write your code below
+		    
 		    String initial = "";
 		    for (int i=0;i<nums.length;i++){
 		      

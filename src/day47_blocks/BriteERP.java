@@ -3,7 +3,9 @@ package day47_blocks;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+
 public class BriteERP {
+	public static String hello = " hello ";
 	static{ //automatically run
 		System.out.println("Launch browzer");
 		System.out.println("navigate to :"+TestData.url);

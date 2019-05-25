@@ -3,7 +3,7 @@ package day25;
 public class Split {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
     String diceResult = "About 1,740,000,000 results (0.65 seconds) ";
     String sliced []=diceResult.split(" ");
     System.out.println(sliced[1]);

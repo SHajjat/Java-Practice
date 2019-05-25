@@ -19,7 +19,7 @@ public class OnlineStoreNew {
 		 * @return price for that item
 		 */
 		public static double findItemPrice(String item){
-			//TODO
+			
 			int index = 0;
 			
 			for (int i = 0 ; i<ITEMS.length;i++) {
@@ -47,7 +47,7 @@ public class OnlineStoreNew {
 		 */
 		public static int discountByItemCount(String[] order, boolean isMember) {
 			
-			//TODO
+			
 			int discount = 0;
 			if (order.length >=10) {
 				discount = isMember ? 10 :5;
@@ -69,7 +69,7 @@ public class OnlineStoreNew {
 	 * @return  number of occurrences of a certain item in the order
 	 */
 		public int getNumberOfItemOccurrences(String[] order, String itemName){
-			//TODO
+		
 			int count = 0;
 			for (String a : order) {
 				if (a.equals(itemName)) {
@@ -95,7 +95,7 @@ public class OnlineStoreNew {
 		 */
 		 
 		public int getNumberOfDuplicateItems(String[] order) {
-			//TODO
+			
 			int count = 0;
 			String strOrder = "";
 			for (int i = 0 ; i<order.length;i++) {
@@ -129,7 +129,7 @@ public class OnlineStoreNew {
 		 * @return new array that will have original items in the order and free items added at the end of the order
 		 */
 			public String[] buyThreeDiscount(String[] order, boolean isMember) {
-				//TODO
+			
 				String added="";
 					for (String special : SPECIAL_ITEMS) {
 						if (getNumberOfItemOccurrences(order, special )>=3) {
@@ -157,7 +157,7 @@ public class OnlineStoreNew {
 		 * @return order total
 		 */
 		public static double getOrderTotalWithoutDiscount(String[] order) {
-			//TODO
+			
 			double sum = 0.0;
 			for (String item : order) {
 				sum+=findItemPrice(item);
@@ -178,7 +178,7 @@ public class OnlineStoreNew {
 		 * @return discount percent based on the individual item price
 		 */
 		public static int discountByItemPrice(String[] order, boolean isMember) {
-			//TODO
+			
 			boolean overThrush = false;byte count = 0;
 			int thrush = isMember? 50:75 , discount=0;
 			for (String item : order) {
@@ -209,7 +209,7 @@ public class OnlineStoreNew {
 		 * @return true if free shipping is applicable, false otherwise
 		 */
 		public static boolean isShippingFree(String[] order, boolean isMember) {
-			//TODO
+		
 			int thrush = isMember?75:150;
 			return getOrderTotalWithoutDiscount(order)>=thrush;
 			
@@ -234,7 +234,7 @@ public class OnlineStoreNew {
 		 * @return total order amount with discount and shipping charge if applicable
 		 */
 		public static double calculateOrderTotalWithDiscountsAndShipping(String[] order, boolean isMember){
-			//TODO
+			
 			int discount = discountByItemPrice(order,isMember) >discountByItemCount(order,isMember)?discountByItemPrice(order,isMember):discountByItemCount(order,isMember);
 			double total = isShippingFree(order, isMember)?getOrderTotalWithoutDiscount(order)*discount:getOrderTotalWithoutDiscount(order)*discount+SHIPPING_CHARGE;
 			return total;
