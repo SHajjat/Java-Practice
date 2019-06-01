@@ -16,11 +16,11 @@ public class TraditionalSearch {
 		
 		private static void print(List<Animal> animals , CheckTrait checker){
 		for (Animal animal : animals) {
-			if ( checker.test(animal) )
-				System.out.println(animal + " ");
-		else if (checker.testSwim(animal))
-				System.out.println(animal + " can swim");
-			
+//			if ( checker.test(animal) )
+//				System.out.println(animal + " ");
+//		else if (checker.testSwim(animal))
+//				System.out.println(animal + " can swim");
+//
 			
 		}
 		}

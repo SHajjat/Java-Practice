@@ -2,7 +2,7 @@ package homeWorks;
 
 public class ReversingOnlyLetters {
 	public static String reverseLetters(String word){
-		//TODO
+		
 		String tempWord = "";
 		String [] tempArr = word.split("");
 		word="";

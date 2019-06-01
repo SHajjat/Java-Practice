@@ -1,6 +1,12 @@
 package oca_Quizes.oca_LamdaExample;
 
 public class Animal {
+	public Animal() {
+	}
+	
+	public String getName(){
+		return "Animal";
+	}
 	private String species;
 	private boolean canHop;
 	private boolean canSwim;
