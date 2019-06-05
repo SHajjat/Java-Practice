@@ -1,6 +1,7 @@
 package book_CH5;
 
 public class Dog {
+
 	
 public String name;
 public String breed;
