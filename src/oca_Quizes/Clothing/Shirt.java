@@ -1,4 +1,7 @@
-package oca_Quizes.Clothing.Pants;
+package oca_Quizes.Clothing;
 
 public class Shirt {
+	public static String getColor(){
+		return "Green";
+	}
 }

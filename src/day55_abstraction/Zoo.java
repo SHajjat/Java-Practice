@@ -1,5 +1,5 @@
 package day55_abstraction;
-
+import day56_abstraction02.*;
 public class Zoo {
 	public static void main(String[] args) {
 		Cat sh_hebar = new Cat();
@@ -12,6 +12,7 @@ public class Zoo {
 		sh_hebar.eat();
 		sasha.eat();
 		System.out.println(sh_hebar.getName());
+		
 		
 		
 		

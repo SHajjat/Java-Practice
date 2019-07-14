@@ -1,4 +1,8 @@
 package DateTimeAPI_LAMBDA;
 
-public class B {
+public abstract class B  {
+	public void methodA(){
+	
+	}
+	
 }

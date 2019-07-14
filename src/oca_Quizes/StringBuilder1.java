@@ -1,7 +1,18 @@
 package oca_Quizes;
 
 public class StringBuilder1 {
-	public static void main(String[] args) {
+	private StringBuilder1(){
+	
+	}
+	private  StringBuilder1(int i ){
+	
+	}
+	static char b ;
+	public static void main(String... args) {
+		char i = ' ';
+		System.out.println("***"+b+"***");
+		System.out.println(b == i);
+		System.out.println(b);
 		StringBuilder alpha = new StringBuilder();
 		for (char current = 'a';current<='z';current++){
 			alpha.append(current);
@@ -33,6 +44,19 @@ public class StringBuilder1 {
 		System.out.println(beta);
 		beta.substring(1,3);
 		System.out.println(beta);
+		StringBuilder sb = new StringBuilder(5);
+		String s = "";
 		
+		if (sb.equals(s)){
+			System.out.println("Match");
+		}else if (sb.toString().equals(s.toString())){
+			System.out.println("Match 2");
+		}else{
+			System.out.println("No match");
+		}
+		
+		StringBuilder1.main("String");
 	}
+	
+	
 }

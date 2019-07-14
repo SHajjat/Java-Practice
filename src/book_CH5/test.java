@@ -25,7 +25,8 @@ public class test {
 			game[3][3] = 6;
 			Object[] obj = game;
 			//game[3][3] = "X"; System.out.println(game[3][3]);
-			System.out.println(new Integer {1,2,3});
+			System.out.println(new Integer [] {1,2,3});
+			
 		}
 	}
 	
